@@ -50,6 +50,7 @@ class BarraPesquisaComponent extends StatelessWidget {
                 bottomLeft: Radius.elliptical(10, 10),
                 bottomRight: Radius.elliptical(10, 10),
               ),
+              
             ),
             child: IconButton(
               onPressed: () {},

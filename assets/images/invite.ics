@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:E. South America Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Tatiane Horta Rodrigues Franco:mailto:thfranco@brq.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=elenndypau
+ lla@gmail.com:mailto:elenndypaulla@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Bruno Henr
+ ique Lopes:mailto:brunohlopes@brq.com
+DESCRIPTION;LANGUAGE=pt-BR:\n______________________________________________
+ __________________________________\nReunião do Microsoft Teams\nIngressar
+  no aplicativo móvel ou de computador\nClique aqui para ingressar na reun
+ ião<https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2UxZDllMTAtND
+ kzZS00MmE4LWEzY2ItMzU0MjRjZDM4M2I2%40thread.v2/0?context=%7b%22Tid%22%3a%2
+ 26fef5545-9509-40fe-af6b-033852b345b7%22%2c%22Oid%22%3a%2224020eca-abc3-4a
+ 63-b5aa-9cac32fca881%22%7d>\nBrq: paixão em transformar negócios com tec
+ nologia. #digital #agile #leanbrq #paixaobrq\nSaiba mais<https://aka.ms/Jo
+ inTeamsMeeting> | Ajuda<http://www.brq.com/contato> | Opções de reunião
+ <https://teams.microsoft.com/meetingOptions/?organizerId=24020eca-abc3-4a6
+ 3-b5aa-9cac32fca881&tenantId=6fef5545-9509-40fe-af6b-033852b345b7&threadId
+ =19_meeting_M2UxZDllMTAtNDkzZS00MmE4LWEzY2ItMzU0MjRjZDM4M2I2@thread.v2&mes
+ sageId=0&language=pt-BR> | Jurídico<http://www.brq.com/>\n_______________
+ _________________________________________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000EB335E3D71F6D601000000000000000
+ 01000000036BA048368653B448ACEEFEE269A8292
+SUMMARY;LANGUAGE=pt-BR:Entrevista flutter
+DTSTART;TZID=E. South America Standard Time:20210201T100000
+DTEND;TZID=E. South America Standard Time:20210201T103000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20210129T190210Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=pt-BR:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2119297259
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_M2UxZDllMTAtNDkzZS00MmE4LWEzY2ItMzU0MjRjZDM4M2I2%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%226fef5545-9509-40fe-af6b-033852b345b7%22%2c%22O
+ id%22%3a%2224020eca-abc3-4a63-b5aa-9cac32fca881%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/6fef5545-9509-40fe-af6b-033852b345b7/24020eca-abc3-4a63-b5aa-9
+ cac32fca881/19_meeting_M2UxZDllMTAtNDkzZS00MmE4LWEzY2ItMzU0MjRjZDM4M2I2@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_M2UxZDllMTAtNDkzZS00MmE
+ 4LWEzY2ItMzU0MjRjZDM4M2I2@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:thfranco@brq.com\;gruu\;opaque=a
+ pp:conf:focus:id:teams:2:0!19:meeting_M2UxZDllMTAtNDkzZS00MmE4LWEzY2ItMzU0
+ MjRjZDM4M2I2-thread.v2!24020ecaabc34a63b5aa9cac32fca881!6fef5545950940feaf
+ 6b033852b345b7
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

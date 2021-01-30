@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:plant_shop/app/pages/loja/loja_page.dart';
+import 'package:plant_shop/app/pages/home/home_page.dart';
 
 class ApresentacaoPage extends StatelessWidget {
   @override
@@ -35,7 +35,7 @@ class ApresentacaoPage extends StatelessWidget {
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (context) => LojaPage(),
+                  builder: (context) => HomePage(),
                 ),
               );
             },

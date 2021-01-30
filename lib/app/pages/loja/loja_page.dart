@@ -22,32 +22,6 @@ class _LojaPageState extends State<LojaPage> {
 
     return Scaffold(
       backgroundColor: Colors.white,
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home_outlined,
-              color: Color(0xFF1da953),
-            ),
-            title: Text(""),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.favorite_border_outlined,
-              color: Color(0xFF1da953),
-            ),
-            title: Text(""),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.shopping_bag_outlined,
-              color: Color(0xFF1da953),
-            ),
-            title: Text(""),
-          ),
-        ],
-      ),
       body: Column(
         children: [
           LojaHeaderComponent(),
@@ -56,7 +30,8 @@ class _LojaPageState extends State<LojaPage> {
             child: BarraPesquisaComponent(),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 7.0, right: 7.0, top: 30.0, bottom: 10.0),
+            padding: const EdgeInsets.only(
+                left: 7.0, right: 7.0, top: 30.0, bottom: 10.0),
             child: CategoriasComponent(),
           ),
           Padding(
